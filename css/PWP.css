@@ -1,0 +1,1231 @@
+.center {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+main {
+  background-color: #361516;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-image: url("img/Images/header.png");
+  background-size: 100%;
+}
+header .Menu {
+  background-color: #271a1b;
+  top: 0px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+header .Menu menu {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+header .Menu menu .MenuItem {
+  font-size: 32px;
+  font-family: "BeaufortforLOL";
+  background: #ffffff;
+  font-weight: bold;
+  line-height: 1.566;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  margin-left: 25px;
+  transition: 500ms;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .Menu menu .MenuItem:hover {
+  background: linear-gradient(0deg, #ffe0b4, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .Menu menu .PersonArea {
+  display: flex;
+}
+header .main_h {
+  display: grid;
+  grid-template-columns: 52.9% 60.29%;
+  justify-content: center;
+  width: 70.83%;
+  height: 540px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+header .main_h .FirstPart {
+  width: 100%;
+  margin-left: 11%;
+}
+header .main_h .FirstPart img {
+  width: 81.45%;
+  z-index: 333;
+}
+header .main_h .FirstPart .FirstInfoBlock {
+  font-size: 39px;
+  letter-spacing: 2px;
+  line-height: 42px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Beaufortfor LO L";
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.59));
+}
+header .main_h .FirstPart .FirstInfoBlock span {
+  color: pink;
+}
+header .main_h .FirstPart .BtnStartGame {
+  cursor: pointer;
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 46px;
+  color: #33281b;
+  font-weight: bold;
+  font-family: "Beaufortfor LO L";
+  background-image: linear-gradient(0deg, #fb9d01, #f7c75e);
+  padding: 15px 36px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  transition: 500ms;
+  margin-top: 20px;
+}
+header .main_h .FirstPart .BtnStartGame:hover {
+  -webkit-box-shadow: 0px 1px 53px 1px #ffbc14;
+  -moz-box-shadow: 0px 1px 53px 1px #ffbc14;
+  box-shadow: 0px 1px 53px 1px #ffbc14;
+  text-shadow: 1px 1px 2px, 0 0 1em #000000;
+}
+header .main_h .SecondPart img {
+  width: 100%;
+  margin-left: -11%;
+}
+@media (max-width: 1650px) {
+  header .Menu {
+    background-color: #271a1b;
+    top: 0px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  header .Menu menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  header .Menu menu .MenuItem {
+    font-size: 20px;
+    font-family: "BeaufortforLOL";
+    background: #ffffff;
+    font-weight: bold;
+    line-height: 1.566;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+    margin-left: 25px;
+    transition: 500ms;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  header .Menu menu .MenuItem:hover {
+    background: linear-gradient(0deg, #ffe0b4, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  header .Menu menu .PersonArea {
+    display: flex;
+  }
+}
+@media (max-width: 1500px) {
+  header .main_h .FirstPart {
+    width: 100%;
+    margin-left: 11%;
+  }
+  header .main_h .FirstPart img {
+    width: 81.45%;
+    z-index: 333;
+  }
+  header .main_h .FirstPart .FirstInfoBlock {
+    font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.59));
+  }
+  header .main_h .FirstPart .FirstInfoBlock span {
+    color: pink;
+  }
+  header .main_h .FirstPart .BtnStartGame {
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 23px;
+  }
+  header .main_h .SecondPart img {
+    width: 100%;
+    margin-left: -11%;
+  }
+}
+@media (max-width: 1150px) {
+  header .main_h .FirstPart {
+    width: 100%;
+    margin-left: 11%;
+    z-index: 33;
+  }
+  header .main_h .FirstPart img {
+    position: relative;
+    width: 81.45%;
+  }
+  header .main_h .FirstPart .FirstInfoBlock {
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.59));
+  }
+  header .main_h .FirstPart .FirstInfoBlock span {
+    color: pink;
+  }
+  header .main_h .FirstPart .BtnStartGame {
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 4px;
+    line-height: 23px;
+    padding: 8px 18px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 900px) {
+  header .Menu {
+    background-color: #271a1b;
+    top: 0px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  header .Menu menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  header .Menu menu .MenuItem {
+    font-size: 15px;
+    margin-left: 15px;
+    transition: 500ms;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  header .Menu menu .MenuItem:hover {
+    background: linear-gradient(0deg, #ffe0b4, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  header .Menu menu .PersonArea {
+    display: flex;
+  }
+  header .main_h .FirstPart img {
+    position: relative;
+    width: 71.45%;
+  }
+  header .main_h .FirstPart .FirstInfoBlock {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.59));
+  }
+  header .main_h .FirstPart .FirstInfoBlock span {
+    color: pink;
+  }
+  header .main_h .FirstPart .BtnStartGame {
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 4px;
+    line-height: 15px;
+    padding: 8px 18px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px) {
+  header .Menu {
+    background-color: #271a1b;
+    top: 0px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  header .Menu menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  header .Menu menu .MenuItem {
+    font-size: 10px;
+    margin-left: 10px;
+    transition: 500ms;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  header .Menu menu .MenuItem:hover {
+    background: linear-gradient(0deg, #ffe0b4, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  header .Menu menu .PersonArea {
+    display: flex;
+  }
+  header .main_h .FirstPart img {
+    position: relative;
+    width: 71.45%;
+  }
+  header .main_h .FirstPart .FirstInfoBlock {
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.59));
+  }
+  header .main_h .FirstPart .FirstInfoBlock span {
+    color: pink;
+  }
+  header .main_h .FirstPart .BtnStartGame {
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 4px;
+    line-height: 10px;
+    padding: 6px 12px;
+    margin-top: 10px;
+  }
+}
+.SecondSection .HeaderVideo {
+  width: 100%;
+  max-width: 100%;
+  background-color: #361516;
+}
+.SecondSection .HeaderVideo .BasicVideoBlock {
+  width: 70.83%;
+  display: grid;
+  grid-template-columns: 29.41% 36% 29.41%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  grid-column-gap: 24px;
+  top: 20%;
+}
+.SecondSection .HeaderVideo .BasicVideoBlock .DarkBlock {
+  margin-top: 8%;
+  background-image: url("img/Images/jeremy-anninos-ahrifinalNum1.jpg");
+  background-size: 100%;
+  z-index: 10;
+}
+.SecondSection .HeaderVideo .BasicVideoBlock .DarkBlock:nth-of-type(2) {
+  background-image: url("img/Images/jeremy-anninos-ahrifinal2.jpg");
+}
+.SecondSection .HeaderVideo .BasicVideoBlock .DarkBlock h3 {
+  font-size: 54px;
+  letter-spacing: 4px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Beaufortfor LO L";
+  opacity: 0.5;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 0;
+}
+.SecondSection .HeaderVideo .BasicVideoBlock .DarkBlock .WordsWIdth {
+  margin-left: 150px;
+}
+@media (max-width: 1000px) {
+  .SecondSection .HeaderVideo .BasicVideoBlock .DarkBlock h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 25px;
+  }
+  .SecondSection .HeaderVideo .BasicVideoBlock .DarkBlock .WordsWIdth {
+    margin-left: 150px;
+  }
+}
+.NewsBlock {
+  display: grid;
+  width: 70.83%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  grid-template-columns: 33.97% 63%;
+  grid-column-gap: 25px;
+  margin-top: 27px;
+}
+.NewsBlock .BigSizeBlock {
+  background-image: url('img/Images/girl_2.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 12px;
+}
+.NewsBlock .BigSizeBlock .NameText {
+  font-size: 37px;
+  letter-spacing: 3px;
+  line-height: 52px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Beaufortfor LO L";
+  margin-top: 77%;
+  margin-left: 3%;
+}
+.NewsBlock .BigSizeBlock .BasicText {
+  font-size: 29px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-left: 3%;
+}
+.NewsBlock .BigSizeBlock .BtnCont {
+  width: 190px;
+  height: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Roboto";
+  border: 0;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 50%;
+  z-index: 2;
+}
+.NewsBlock .HotNews {
+  display: flex;
+  flex-direction: column;
+}
+.NewsBlock .HotNews .HotNew {
+  background-image: url('img/Images/fight.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+.NewsBlock .HotNews .HotNew:last-of-type {
+  margin-top: 40px;
+}
+.NewsBlock .HotNews .HotNew .HotNewsName {
+  margin-top: 12%;
+  font-size: 39px;
+  letter-spacing: 0px;
+  line-height: 44px;
+  background: linear-gradient(0deg, #ffe0b4, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: "Beaufortfor LO L";
+  margin-left: 3%;
+}
+.NewsBlock .HotNews .HotNew .HotNewsText {
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-left: 3%;
+}
+.NewsBlock .HotNews .HotNew .BtnCont {
+  width: 190px;
+  height: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Roboto";
+  border: 0;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 60%;
+  z-index: 2;
+}
+@media (max-width: 1800px) {
+  .NewsBlock .BigSizeBlock .NameText {
+    font-size: 37px;
+    letter-spacing: 3px;
+    line-height: 52px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    margin-top: 70%;
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BasicText {
+    font-size: 29px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BtnCont {
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 50%;
+    z-index: 2;
+  }
+  .NewsBlock .HotNews {
+    display: flex;
+    flex-direction: column;
+  }
+  .NewsBlock .HotNews .HotNew {
+    background-image: url('img/Images/fight.png');
+    background-size: 100%;
+    width: 100%;
+    border-radius: 12px;
+  }
+  .NewsBlock .HotNews .HotNew:last-of-type {
+    margin-top: 40px;
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsName {
+    margin-top: 9%;
+    font-size: 35px;
+    letter-spacing: 0px;
+    line-height: 44px;
+    background: linear-gradient(0deg, #ffe0b4, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsText {
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+  .NewsBlock .HotNews .HotNew .BtnCont {
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 60%;
+    z-index: 2;
+  }
+}
+@media (max-width: 1600px) {
+  .NewsBlock .BigSizeBlock .NameText {
+    font-size: 35px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    margin-top: 70%;
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BasicText {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BtnCont {
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 40%;
+    z-index: 2;
+  }
+  .NewsBlock .HotNews .HotNew {
+    background-image: url('img/Images/fight.png');
+  }
+  .NewsBlock .HotNews .HotNew:last-of-type {
+    margin-top: 30px;
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsName {
+    margin-top: 9%;
+    font-size: 35px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsText {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+  .NewsBlock .HotNews .HotNew .BtnCont {
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 60%;
+    z-index: 2;
+  }
+}
+@media (max-width: 1400px) {
+  .NewsBlock .BigSizeBlock .NameText {
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    margin-top: 70%;
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BasicText {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BtnCont {
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 40%;
+    z-index: 2;
+  }
+  .NewsBlock .HotNews .HotNew {
+    background-image: url('img/Images/fight.png');
+  }
+  .NewsBlock .HotNews .HotNew:last-of-type {
+    margin-top: 20px;
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsName {
+    margin-top: 9%;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsText {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+  .NewsBlock .HotNews .HotNew .BtnCont {
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 60%;
+    z-index: 2;
+  }
+}
+@media (max-width: 1100px) {
+  .NewsBlock .BigSizeBlock .NameText {
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    margin-top: 65%;
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BasicText {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BtnCont {
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 35%;
+    z-index: 2;
+  }
+  .NewsBlock .HotNews .HotNew {
+    background-image: url('img/Images/fight.png');
+  }
+  .NewsBlock .HotNews .HotNew:last-of-type {
+    margin-top: 20px;
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsName {
+    margin-top: 7%;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsText {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+  .NewsBlock .HotNews .HotNew .BtnCont {
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 60%;
+    z-index: 2;
+  }
+}
+@media (max-width: 900px) {
+  .NewsBlock .BigSizeBlock .NameText {
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    margin-top: 65%;
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BasicText {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BtnCont {
+    width: 100px;
+    height: 17px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 35%;
+    z-index: 2;
+  }
+  .NewsBlock .HotNews .HotNew {
+    background-image: url('img/Images/fight.png');
+  }
+  .NewsBlock .HotNews .HotNew:last-of-type {
+    margin-top: 20px;
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsName {
+    margin-top: 5%;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsText {
+    font-size: 9px;
+    line-height: 9px;
+  }
+  .NewsBlock .HotNews .HotNew .BtnCont {
+    width: 100px;
+    height: 17px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 60%;
+    z-index: 2;
+  }
+}
+@media (max-width: 700px) {
+  .NewsBlock .BigSizeBlock .NameText {
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Beaufortfor LO L";
+    margin-top: 65%;
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BasicText {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-left: 3%;
+  }
+  .NewsBlock .BigSizeBlock .BtnCont {
+    width: 100px;
+    height: 17px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 25%;
+    z-index: 2;
+  }
+  .NewsBlock .HotNews .HotNew {
+    background-image: url('img/Images/fight.png');
+  }
+  .NewsBlock .HotNews .HotNew:last-of-type {
+    margin-top: 20px;
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsName {
+    margin-top: 5%;
+    font-size: 10px;
+    line-height: 22px;
+  }
+  .NewsBlock .HotNews .HotNew .HotNewsText {
+    font-size: 7px;
+    line-height: 7px;
+  }
+  .NewsBlock .HotNews .HotNew .BtnCont {
+    width: 100px;
+    height: 17px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #de5512 0%, #efbd66 99%);
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 60%;
+    z-index: 2;
+  }
+}
+.ContBtnBlock {
+  width: 70.83%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 32px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #3a1d1e;
+  display: flex;
+  margin-right: 8%;
+  margin-top: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: center;
+}
+@media (max-width: 1400px) {
+  .ContBtnBlock {
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .ContBtnBlock {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .ContBtnBlock {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+}
+.StatInfoBlock {
+  background-color: #361516;
+  width: 100%;
+  height: 300px;
+}
+.StatInfoBlock .BasicInfoBLock {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70.83%;
+  display: grid;
+  grid-template-columns: 17.27% 17.27% 17.27% 17.27% 17.27%;
+  grid-column-gap: 4.77%;
+  top: 60px;
+}
+.StatInfoBlock .BasicInfoBLock .InfoItem .ImgSvg {
+  width: 180px;
+  height: 175px;
+  fill: white;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.BasicInfoText {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+.LastInfoWord {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(0deg, #ffb4bf, #ffffff);
+}
+@media (max-width: 1500px) {
+  .StatInfoBlock {
+    background-color: #361516;
+    width: 100%;
+    height: 250px;
+  }
+  .StatInfoBlock .BasicInfoBLock {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 70.83%;
+    display: grid;
+    grid-template-columns: 17.27% 17.27% 17.27% 17.27% 17.27%;
+    grid-column-gap: 4.77%;
+    top: 30px;
+  }
+  .StatInfoBlock .BasicInfoBLock .InfoItem .ImgSvg {
+    width: 120px;
+    height: 116px;
+    fill: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .BasicInfoText {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+  }
+  .LastInfoWord {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(0deg, #ffb4bf, #ffffff);
+  }
+}
+@media (max-width: 1000px) {
+  .StatInfoBlock {
+    height: 200px;
+  }
+  .StatInfoBlock .BasicInfoBLock {
+    top: 15px;
+  }
+  .StatInfoBlock .BasicInfoBLock .InfoItem .ImgSvg {
+    width: 90px;
+    height: 87px;
+    fill: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .BasicInfoText {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+  }
+  .LastInfoWord {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(0deg, #ffb4bf, #ffffff);
+  }
+}
+.JustLine {
+  width: 75%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  margin-top: -30px;
+  height: 1px;
+  color: #714c4d;
+  padding: 0;
+  margin-left: 0;
+}
+.EndBlock {
+  background-image: url("img/Images/footer.png");
+  background-size: 100%;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 60px;
+}
+.EndBlock .LastLogoImg {
+  width: 14.58%;
+  opacity: 0.5;
+}
+.EndBlock .LastInfoBlock {
+  display: block;
+  width: 20.83%;
+}
+.EndBlock .LastInfoBlock .LastInfoName {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+.EndBlock .LastInfoBlock .LastBasicText {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+.EndBlock .LastInfoBlock .RegulText {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 50px;
+  color: #ff8700;
+  font-weight: 700;
+  font-family: "Roboto";
+  transition: 750ms;
+}
+.EndBlock .LastInfoBlock .RegulText:hover {
+  color: #ffddb7;
+}
+.EndBlock .FooterMenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 15px;
+  width: 500px;
+  margin-left: 7%;
+}
+.EndBlock .FooterMenu .FooterItemBlock {
+  display: block;
+}
+.FooterItem {
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  font-family: "Roboto";
+}
+.FooterItem:hover {
+  color: #ffddb7;
+}
+@media (max-width: 1500px) {
+  .EndBlock .LastInfoBlock {
+    display: block;
+    width: 20.83%;
+  }
+  .EndBlock .LastInfoBlock .LastInfoName {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 40px;
+  }
+  .EndBlock .LastInfoBlock .LastBasicText {
+    font-size: 6px;
+    letter-spacing: 1px;
+    line-height: 9px;
+  }
+  .EndBlock .LastInfoBlock .RegulText {
+    font-size: 9px;
+    letter-spacing: 1px;
+    line-height: 30px;
+  }
+  .EndBlock .FooterMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 10px;
+    width: 500px;
+    margin-left: 7%;
+  }
+  .EndBlock .FooterMenu .FooterItemBlock {
+    display: block;
+  }
+  .FooterItem {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+    font-family: "Roboto";
+  }
+  .FooterItem:hover {
+    color: #ffddb7;
+  }
+}
+@media (max-width: 900px) {
+  .EndBlock .LastInfoBlock {
+    display: block;
+    width: 20.83%;
+  }
+  .EndBlock .LastInfoBlock .LastInfoName {
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+  .EndBlock .LastInfoBlock .LastBasicText {
+    font-size: 4px;
+    letter-spacing: 1px;
+    line-height: 7px;
+  }
+  .EndBlock .LastInfoBlock .RegulText {
+    font-size: 6px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  .EndBlock .FooterMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 10px;
+    width: 500px;
+    margin-left: 7%;
+  }
+  .EndBlock .FooterMenu .FooterItemBlock {
+    display: block;
+  }
+  .FooterItem {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+    font-family: "Roboto";
+  }
+  .FooterItem:hover {
+    color: #ffddb7;
+  }
+}
+footer {
+  background-image: url("img/Images/footer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
